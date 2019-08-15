@@ -62,10 +62,11 @@ class Owner
   
   def sell_pets
     @pets.clear
-    @pets.collect do |dog, cat, fish|
-      dog.change_mood("nervous")
-      cat.change_mood("nervous")
-      fish.change_mood("nervous")
+    
+    #@pets.collect do |dog, cat, fish|
+      #dog.change_mood("nervous")
+      #cat.change_mood("nervous")
+      #fish.change_mood("nervous")
     end
   end
 end
