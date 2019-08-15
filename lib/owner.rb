@@ -47,4 +47,9 @@ class Owner
       dog.change_mood("happy")
     end
   end
+  
+  def play_with_cats
+    @pets[:cats].collect do |cat|
+      cat.change_mood("happy")
+    end
 end
