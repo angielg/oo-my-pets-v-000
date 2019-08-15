@@ -64,5 +64,6 @@ class Owner
     @pets.clear
     @pets.collect do |dog, cat, fish|
       dog.change_mood("nervous")
-      cat.
+      cat.change_mood("nervous")
+      fish.
 end
