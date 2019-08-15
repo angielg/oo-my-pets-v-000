@@ -4,7 +4,7 @@ class Dog
   
   def initialize(name)
     @name = name
-    @mood = #"nervous"
+    @mood = mood #"nervous"
   end
   
   def change_mood(mood)
