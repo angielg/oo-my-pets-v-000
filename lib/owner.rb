@@ -71,10 +71,5 @@ class Owner
     @pets[:fishes].collect do |fish|
       fish.change_mood("nervous")
     end
-    
-    #@pets.collect do |dog, cat, fish|
-      #dog.change_mood("nervous")
-      #cat.change_mood("nervous")
-      #fish.change_mood("nervous")
   end
 end
