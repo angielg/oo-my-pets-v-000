@@ -52,4 +52,5 @@ class Owner
     @pets[:cats].collect do |cat|
       cat.change_mood("happy")
     end
+  end
 end
