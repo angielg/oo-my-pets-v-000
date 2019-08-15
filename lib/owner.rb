@@ -59,4 +59,7 @@ class Owner
       fish.change_mood("happy")
     end
   end
+  
+  def sell_pets
+    @pets.clear
 end
