@@ -64,9 +64,11 @@ class Owner
     @pets.clear
     @pets[:dogs].collect do |dog|
       dog.change_mood("nervous")
-      @pets[:cats].collect do |cat|
+    end
+    @pets[:cats].collect do |cat|
       cat.change_mood("nervous")
-      @pets[:fishes].collect do |fish|
+    end  
+    @pets[:fishes].collect do |fish|
       fish.change_mood("nervous")
     end
     
@@ -74,6 +76,5 @@ class Owner
       #dog.change_mood("nervous")
       #cat.change_mood("nervous")
       #fish.change_mood("nervous")
-    end
   end
 end
