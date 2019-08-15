@@ -61,7 +61,7 @@ class Owner
   end
   
   def sell_pets
-    @pets.clear
+    #@pets.clear
     @pets[:dogs].collect do |dog|
       dog.change_mood("nervous")
     end
@@ -70,6 +70,7 @@ class Owner
     end  
     @pets[:fishes].collect do |fish|
       fish.change_mood("nervous")
+    @pets.clear
     end
   end
 end
