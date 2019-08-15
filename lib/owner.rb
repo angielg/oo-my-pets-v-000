@@ -45,9 +45,6 @@ class Owner
   def walk_dogs
     @pets[:dogs].collect do |dog|
       dog = Dog.change_mood(happy)
-      
     end
-    
-    #dogs.change_mood(happy)
   end
 end
