@@ -61,7 +61,6 @@ class Owner
   end
   
   def sell_pets
-    #@pets.clear
     @pets[:dogs].collect do |dog|
       dog.change_mood("nervous")
     end
@@ -72,5 +71,9 @@ class Owner
       fish.change_mood("nervous")
     @pets.clear
     end
+  end
+  
+  def list_pets
+    puts "I have #{:fishes.count} fish, #{:dogs.count}, and #{:cats.count}."
   end
 end
